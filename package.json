@@ -1,0 +1,35 @@
+{
+  "name": "game-engine-runtime-mcp",
+  "version": "2.0.0",
+  "description": "MCP server connecting Claude AI with game engines (Unity and Godot) for automated testing, debugging, and scene hierarchy inspection.",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "game-engine-runtime-mcp": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "anthropic",
+    "game-engine",
+    "unity",
+    "godot",
+    "testing",
+    "debugging"
+  ],
+  "author": "Estiwito",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
