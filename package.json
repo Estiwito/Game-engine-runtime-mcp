@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "MCP server connecting Claude AI with game engines (Unity and Godot) for automated testing, debugging, and scene hierarchy inspection.",
   "type": "module",
+  "icon": "icon.png",
   "main": "build/index.js",
   "bin": {
     "game-engine-runtime-mcp": "build/index.js"
