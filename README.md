@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="icon.png" width="128" height="128" alt="Game Engine Runtime MCP Logo">
+</p>
 # Game-engine-runtime-mcp 🚀
 MCP server connecting Claude AI with Unity and Godot for automated testing, debugging, and code validation.
 
