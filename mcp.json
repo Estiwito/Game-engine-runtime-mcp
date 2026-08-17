@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schema/mcp-server-manifest.json",
+  "name": "io.github.Estiwito/Game-engine-runtime-mcp",
+  "title": "Game Engine Runtime MCP",
+  "description": "MCP server connecting Claude AI with Unity and Godot for automated testing, debugging, and scene hierarchy inspection.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registry": "github",
+      "identifier": "Estiwito/Game-engine-runtime-mcp",
+      "transport": "stdio"
+    }
+  ]
+}
